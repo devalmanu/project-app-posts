@@ -1,0 +1,20 @@
+.myBtn {
+    display: block;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    padding: 7px 25px;
+    background-color: #bb2749;
+    border: 1px solid #bb2749;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.myBtn:hover {
+    background-color: #aa052b;
+    border: 1px solid #aa052b;
+}
+
+.creatPost {
+    margin-left: 0;
+}

@@ -1,0 +1,11 @@
+.myInput {
+    width: 100%;
+    color: #333333;
+    padding: 8px 15px;
+    margin: 5px 0;
+    border: 1px solid #b1b1b1;
+    border-radius: 4px;
+}
+.myInput:active, .myInput:focus {
+    border: 1px solid #888888;
+}

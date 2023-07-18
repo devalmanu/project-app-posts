@@ -1,0 +1,16 @@
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.navbar__links {
+    margin-left: auto;
+}
+.navbar__links a {
+    padding: 7px 0;
+    margin-left: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}

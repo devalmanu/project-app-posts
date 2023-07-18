@@ -1,0 +1,21 @@
+.loader {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 3px dashed #bb2749;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 20px auto;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    100% {
+        transform: rotate(360deg) scale(1.5);
+    }
+}
